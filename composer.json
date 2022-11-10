@@ -1,0 +1,7 @@
+{
+    "name": "root/app",
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    },
+    "require": {}
+}

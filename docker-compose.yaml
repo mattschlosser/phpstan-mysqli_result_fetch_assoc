@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  php:
+    build: .
+    depends_on:
+      - mysql
+  mysql:
+    image: mariadb:10.6
+    environment:
+      MYSQL_USER: matt
+      MYSQL_ROOT_PASSWORD: matt
+      MYSQL_PASSWORD: matt
+      MYSQL_DATABASE: matt
+
