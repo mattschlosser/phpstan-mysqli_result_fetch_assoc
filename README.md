@@ -6,7 +6,7 @@ type array<string, string>|null when in fact it can possibly be array<string, st
 Run:
 
 ```bash
-docker-compose up
+docker-compose run php
 ```
 
 To run the actual script to prove it can return `NULL`:
